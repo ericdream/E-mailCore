@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-   EMAIL SDK 
+   emial sdk developed by eric
                    DESC
 
   s.homepage     = "https://github.com/ericdream/E-mailCore"
@@ -133,5 +133,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  s.requires_arc = true
 end

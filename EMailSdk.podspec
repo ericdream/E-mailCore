@@ -24,9 +24,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+   EMAIL SDK 
                    DESC
 
-  s.homepage     = "https://github.com/ericdream/E-mailCore/blob/master/EMailSdk"
+  s.homepage     = "https://github.com/ericdream/E-mailCore"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 

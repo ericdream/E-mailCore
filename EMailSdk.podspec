@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EMailSdk"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "email sdk ."
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EMailSdk/EMailSdk/*.{h,m}"
-  s.exclude_files = "EMailSdk/EMailSdk"
+  s.source_files  = "E-mailSDK/*.{h,m}"
+  #s.exclude_files = "EMailSdk/EMailSdk"
 
   # s.public_header_files = "Classes/**/*.h"
 
